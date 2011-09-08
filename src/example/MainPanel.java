@@ -51,7 +51,7 @@ public class MainPanel extends JPanel {
         column = table.getColumnModel().getColumn(2);
         column.setCellRenderer(new ProgressRenderer());
 
-        add(new JButton(new TestCreateAction("add", null)), BorderLayout.SOUTH);
+        add(new JButton(new TestCreateAction("<html><b>追加ボタン</b></html>", null)), BorderLayout.SOUTH);
         add(scrollPane);
         setPreferredSize(new Dimension(320, 240));
     }
